@@ -1,0 +1,123 @@
+/* Clearing the default formatting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #ececec;
+}
+
+/**** Layout ****/
+
+.headerArea{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.logoArea{
+    color:#4e4e4e;
+    font-size: 2.5em;
+}
+
+.logoArea , .menuArea{
+    padding: 10px;
+}
+
+.mainArea{
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#postsArea{
+    width: 660px;
+    float:left;
+}
+
+.posts{
+    padding:20px;
+    margin-bottom:20px;
+    background: #fff;
+}
+
+#sideBar{
+    width: 240px;
+    float:right;
+}
+
+.sideContent{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sidePost{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidePost:nth-last-child(1){
+    border: none;
+}
+
+footer{
+    clear: both;
+}
+
+/**** Menu formatting ****/
+
+a{
+    text-decoration:none;
+    text-transform:capitalize;
+}
+
+.menuArea a:link, .menuArea a:visited {
+    color:#fff;
+    padding: 8px 12px;
+}
+
+.menuArea a:hover {
+    background: #fff;
+    color:#f7b600;
+    transition:0.3s;
+    text-decoration: none;
+}
+
+/**** General formatting ****/
+
+a:link, a:visited {
+    color:#f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    color: #f7b600;
+}
+
+.postingDate{
+    font-size: 0.8em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    display:block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#sideTitle{
+    background: #ccc;
+    color:#565656;
+    padding: 5px;
+}
+
+.sideContent a{
+    display:block;
+}
